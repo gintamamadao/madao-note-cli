@@ -10,7 +10,8 @@
     "dev:no-clean": "father dev --no-clean",
     "doctor": "father doctor",
     "version": "father version",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "prepare": "husky"
   },
   "keywords": [],
   "author": "",

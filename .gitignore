@@ -3,5 +3,6 @@ bin
 lib
 .yalc
 yalc.lock
+.DS_Store
 
 .pnpm-debug.log
