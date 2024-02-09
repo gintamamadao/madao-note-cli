@@ -4,12 +4,42 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "build": "father build",
+    "build:no-clean": "father build --no-clean",
+    "dev": "father dev",
+    "dev:no-clean": "father dev --no-clean",
+    "doctor": "father doctor",
+    "version": "father version",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "father": "^4.4.0"
+    "@types/fs-extra": "^9.0.13",
+    "@types/lodash": "^4.14.182",
+    "chalk": "^4.1.2",
+    "chokidar": "^3.5.2",
+    "dayjs": "^1.11.1",
+    "death": "^1.1.0",
+    "fs-extra": "^10.1.0",
+    "glob": "^7.2.0",
+    "json-stringify-safe": "^5.0.1",
+    "lodash": "^4.17.21",
+    "prettier": "^2.5.1"
+  },
+  "devDependencies": {
+    "father": "^4.4.0",
+    "tslib": "^2.6.2",
+    "typescript": "^5.3.3",
+    "@typescript-eslint/eslint-plugin": "^5.61.0",
+    "@typescript-eslint/parser": "^5.61.0",
+    "eslint": "^8.44.0",
+    "eslint-config-prettier": "^8.8.0",
+    "eslint-config-standard": "^17.1.0",
+    "eslint-plugin-import": "^2.27.5",
+    "eslint-plugin-n": "^16.0.1",
+    "eslint-plugin-prettier": "5.0.0-alpha.2",
+    "eslint-plugin-promise": "^6.1.1"
   }
 }
